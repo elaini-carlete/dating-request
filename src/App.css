@@ -1,0 +1,30 @@
+#root {
+    background-color: #93a5d4;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#root::after{
+    content: "";
+    position: absolute;
+    background: url(../src/components/images/your-name.png) no-repeat bottom left;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+@media(max-width: 900px){
+    #root::after{
+        background: url(../src/components/images/your-name-little.png) no-repeat bottom left;
+    }
+}

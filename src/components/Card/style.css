@@ -1,0 +1,42 @@
+.dating-request-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 0px 30px 0px 30px;
+    text-align: center;
+}
+
+.dating-request-card .question-title{
+    font-size: 80px;
+    text-shadow: 3px 3px 4px #fff;
+}
+
+.dating-request-card .reply-btn{
+    cursor: pointer;
+    box-shadow: 2px 2px 10px 5px #D87093;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 50px;
+}
+
+.card-yes{
+    border-radius: 20px;
+}
+
+.card-yes p{
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+}
+
+@media(max-width: 900px){
+    .dating-request-card .question-title{
+        font-size: 50px;
+    }
+    
+    .dating-request-card .reply-btn{
+        font-size: 18px;
+    }
+}
