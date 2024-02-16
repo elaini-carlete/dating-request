@@ -19,4 +19,4 @@ Personal project
 
 ### Project overview
 
-![](././src/design/dating-request.gif)
+![]()

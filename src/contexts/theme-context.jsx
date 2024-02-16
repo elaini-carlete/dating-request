@@ -1,15 +1,15 @@
 import { createContext, useState } from "react";
-import CherryBlossomsLight from "../components/images/cherry-blossoms-light.png"
-import CherryBlossomsDark from "../components/images/cherry-blossoms-dark.png"
 
 export const themes = {
     light: {
-        src: {CherryBlossomsLight},
-        background: '#93a5d4'
+        background: '#93a5d4',
+        color: '#d87093',
+        boxShadow: '2px 2px 10px 5px #D87093'
     },
     dark: {
-        src: {CherryBlossomsDark},
-        background: '#000000'
+        background: '#6d6d6d',
+        color: '#000000',
+        boxShadow: '2px 2px 10px 5px #000000'
     },
 } 
 

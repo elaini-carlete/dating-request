@@ -1,13 +1,11 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from "react"
+import { ThemeContext } from '../../contexts/theme-context';
 import './style.css'
 
-export const DatingRequestCard = ({color, backgroundColor}) => {
+export const DatingRequestCard = (style) => {
     const [showAlert, setShowAlert] = useState(false);
 
-    const style = {
-        color: '#d87093',
-        opacity: '0.7'
-    }
+    const { theme } = useContext(ThemeContext)
 
     const alertButtonYes = () => {
         setShowAlert(true);
@@ -65,14 +63,16 @@ export const DatingRequestCard = ({color, backgroundColor}) => {
     }
 
     return(
-        <div className='dating-request-card'>
+        <div style={{ color: theme.color, background: theme.background }} className='dating-request-card'>
             <h1 className='question-title' style={style}>Wants to date me ?</h1>
-            <button className='reply-btn' id='yes' style={style} onClick={alertButtonYes}>Yes,I love you!</button>
-            <button className='reply-btn' id='no' style={style} onMouseOver={mouseOver}>No,I Hate you!</button>
+            <div  className='reply'>
+                <button className='reply-btn' id='yes' style={{ color: theme.color, background: theme.background, boxShadow: theme.boxShadow }} onClick={alertButtonYes}>Yes,I love you!</button>
+                <button className='reply-btn' id='no' style={{ color: theme.color, background: theme.background, boxShadow: theme.boxShadow }} onMouseOver={mouseOver}>No,I Hate you!</button>
+            </div>
 
             {showAlert && (
                 <div className='card-yes'>
-                    <p style={style}>I knew, my favorite little person!</p>
+                    <p style={{ color: theme.color, background: theme.background, boxShadow: theme.boxShadow }}>I knew, my favorite little person!</p>
                 </div>
             )}
         </div>
