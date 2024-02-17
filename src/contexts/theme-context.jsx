@@ -7,7 +7,7 @@ export const themes = {
         boxShadow: '2px 2px 10px 5px #D87093'
     },
     dark: {
-        background: '#6d6d6d',
+        background: '#dddddd',
         color: '#000000',
         boxShadow: '2px 2px 10px 5px #000000'
     },
