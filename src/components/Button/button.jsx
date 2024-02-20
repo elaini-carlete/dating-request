@@ -6,6 +6,6 @@ export const Button = (props) => {
     const { theme } = useContext(ThemeContext)
 
     return(
-        <button className="btn" {...props} style={{ color: theme.color, background: theme.background, boxShadow: theme.boxShadow, src: theme.src }}></button>
+        <button className="btn" {...props} style={{ color: theme.color, background: theme.background, boxShadow: theme.boxShadow }}></button>
     )
 }

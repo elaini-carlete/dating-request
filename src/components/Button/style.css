@@ -1,7 +1,9 @@
 .theme-btn{
     display: flex;
     justify-content: end;
-    padding: 30px;
+    align-items: center;
+    padding: 30px 30px 0px 0px;
+    height: 10vh;
 }
 
 .btn{
