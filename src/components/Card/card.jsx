@@ -66,8 +66,8 @@ export const DatingRequestCard = (style) => {
         <div style={{ color: theme.color, background: theme.background }} className='dating-request-card'>
             <h1 className='question-title' style={style}>Wants to date me ?</h1>
             <div  className='reply'>
-                <button className='btn-yes' id='yes' style={{ color: theme.color, background: theme.background, boxShadow: theme.boxShadow }} onClick={alertButtonYes}>Yes,I love you!</button>
-                <button className='btn-no' id='no' style={{ color: theme.color, background: theme.background, boxShadow: theme.boxShadow }} onMouseOver={mouseOver}>No,I Hate you!</button>
+                <button className='reply-btn' id='yes' style={{ color: theme.color, background: theme.background, boxShadow: theme.boxShadow }} onClick={alertButtonYes}>Yes,I love you!</button>
+                <button className='reply-btn' id='no' style={{ color: theme.color, background: theme.background, boxShadow: theme.boxShadow }} onMouseOver={mouseOver}>No,I Hate you!</button>
             </div>
 
             {showAlert && (

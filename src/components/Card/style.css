@@ -17,15 +17,11 @@
     gap: 30px;
 }
 
-.dating-request-card .btn-yes,
-.dating-request-card .btn-no{
+.dating-request-card .reply-btn{
     padding: 10px;
     font-size: 25px;
     border-radius: 50px;
     z-index: 1;
-}
-
-.dating-request-card .btn-yes{
     cursor: pointer;
 }
 
@@ -60,6 +56,7 @@
 
     .dating-request-card .question-title{
         font-size: 35px;
+        padding-top: 30px;
     }
     
     .dating-request-card .reply-btn{

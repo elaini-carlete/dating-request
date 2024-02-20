@@ -12,3 +12,9 @@
     cursor: pointer;
     padding: 5px;
 }
+
+@media(max-width: 510px){
+    .btn{
+        padding: 2px;
+    }
+}
