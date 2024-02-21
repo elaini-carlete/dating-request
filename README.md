@@ -15,13 +15,13 @@ Personal project
 
 ## Difficulties
 - Move the "no" button away from the mouse click
--Make the answer appear when clicking the "yes" button
+- Make the answer appear when clicking the "yes" button
 
 ## Technologies and libraries
 - Vite
-- To react
--JavaScript
--CSS
+- React
+- JavaScript
+- CSS
 
 ### Desktop layout
 
