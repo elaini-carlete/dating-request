@@ -7,8 +7,7 @@ Personal project
 - Interaction with buttons
 - Change light theme to dark theme
 
-## reason to carry out this project
-- Train react
+## Reason to carry out this project
 - Understand how to switch from light theme to dark theme in React
 - Learn to move the "no" button away from the mouse click
 - Make text appear when clicking a button
