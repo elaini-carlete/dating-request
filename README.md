@@ -1,22 +1,32 @@
-# Dating Request
-Personal project 
+# Dating request
+Personal project
 
 ## Goals
 - The person cannot refuse the dating request
-- Layout on all screen types
+- Layout preview on all screen types
 - Interaction with buttons
+- Change light theme to dark theme
+
+## reason to carry out this project
+- Train react
+- Understand how to switch from light theme to dark theme in React
+- Learn to move the "no" button away from the mouse click
+- Make text appear when clicking a button
 
 ## Difficulties
-- Move the "no" button away from the mouse
-- Make the card appear when clicking the "yes" button
-- Work on small devices with the touch of your finger
+- Move the "no" button away from the mouse click
+-Make the answer appear when clicking the "yes" button
 
-## Techs and libs
+## Technologies and libraries
 - Vite
-- React
-- JavaScript
-- CSS
+- To react
+-JavaScript
+-CSS
 
-### Project overview
+### Desktop layout
 
-![]()
+![](./src/design/dating-request-desktop.gif)
+
+### Mobile Layout
+
+![](./src/design/dating-request-mobile.gif)
